@@ -35,8 +35,8 @@ services:
             # set to true to use letsencrypt certificates
             - ENABLE_LETSENCRYPT=false
             - MAX_UPLOAD_SIZE=200M
-            - PHP_TIMEZONE=Europe/Paris
-            - TZ=Europe/Paris
+            - PHP_TIMEZONE=Pacific/Auckland
+            - TZ=Pacific/Auckland
             - USE_REDIS=false
             - ENABLE_IPV6=true
         volumes:
